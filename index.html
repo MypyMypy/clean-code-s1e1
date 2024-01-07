@@ -6,15 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Todo App</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css">
-  <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+  <link
+    rel="stylesheet"
+    href="style.css"
+    media="screen"
+    charset="utf-8">
 </head>
 
 <body class="todo-page">
   <header class="todo-page__header todo-header">
     <div class="todo-header__container container">
-      <img class="todo-header__image" src="./eisenhower-matrix.jpg">
-      <a class="todo-header__more-link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more
-        details?</a>
+      <img
+        class="todo-header__image"
+        src="./eisenhower-matrix.jpg"
+        alt="The Eisenhower matrix"
+      >
+      <a
+        class="todo-header__more-link"
+        href="https://goal-life.com/page/method/matrix-eisenhower"
+      >Want more details?</a>
     </div>
   </header>
   <main class="todo-page__main">
@@ -22,7 +32,10 @@
       <div class="container">
         <h3 class="todo-section-header todo-add-section__header">Add Item</h3>
         <div class="todo-add-section__wrapper">
-          <input id="new-task" class="task" type="text">
+          <input
+            id="new-task"
+            class="task"
+            type="text">
           <button class="todo-button">Add</button>
         </div>
       </div>
@@ -32,18 +45,34 @@
         <h3 class="todo-section-header">Todo</h3>
         <ul class="list-reset todo-list" id="incomplete-tasks">
           <li class="todo-list__item todo-item">
-            <input class="todo-item__checkbox" type="checkbox">
+            <input
+              class="todo-item__checkbox"
+              type="checkbox">
             <label class="todo-item__description">Pay Bills</label>
-            <input class="todo-item__input task" type="text">
+            <input
+              class="todo-item__input task"
+              type="text">
             <button class="todo-button todo-item__button--edit">Edit</button>
-            <button class="todo-button todo-item__button--delete"><img src="./remove.svg"></button>
+            <button class="todo-button todo-item__button--delete">
+              <img
+                src="./remove.svg"
+                alt="Remove TODO">
+            </button>
           </li>
           <li class="todo-list__item todo-item">
-            <input class="todo-item__checkbox" type="checkbox">
+            <input
+              class="todo-item__checkbox"
+              type="checkbox">
             <label class="todo-item__description">Go Shopping</label>
-            <input class="todo-item__input task" type="text">
+            <input
+              class="todo-item__input task"
+              type="text">
             <button class="todo-button todo-item__button--edit">Edit</button>
-            <button class="todo-button todo-item__button--delete"><img src="./remove.svg"></button>
+            <button class="todo-button todo-item__button--delete">
+              <img
+                src="./remove.svg"
+                alt="Remove TODO">
+              </button>
           </li>
         </ul>
       </div>
@@ -53,11 +82,20 @@
         <h3 class="todo-section-header">Completed</h3>
         <ul class="todo-list list-reset" id="completed-tasks">
           <li class="todo-list__item todo-item">
-            <input class="todo-item__checkbox" type="checkbox" checked>
+            <input
+              class="todo-item__checkbox"
+              type="checkbox"
+              checked>
             <label class="todo-item__description">See the Doctor</label>
-            <input class="todo-item__input task" type="text">
+            <input
+              class="todo-item__input task"
+              type="text">
             <button class="todo-button todo-item__button--edit">Save</button>
-            <button class="todo-button todo-item__button--delete"><img src="./remove.svg"></button>
+            <button class="todo-button todo-item__button--delete">
+              <img
+                src="./remove.svg"
+                alt="Remove TODO">
+            </button>
           </li>
         </ul>
       </div>
